@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.fc-bg {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .fc-bg {
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+  }
+}
+.fc-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+.fc-main-heading {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+.fc-count {
+  color: #ffd569;
+}
+.fc-fruits-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .fc-fruits-div {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.fc-fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fc-img {
+  width: 80%;
+  max-width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .fc-img {
+    width: 90%;
+    margin: 15px;
+    margin-top: 50px;
+  }
+}
+.fc-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+}
